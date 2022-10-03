@@ -38,19 +38,6 @@ def draw():
     glEnd()
 
 
-def draw1():
-    glColor3f(1,1,0)
-    glBegin(GL_POLYGON)
-    glVertex2f(-3, -2)
-    glVertex2f(3, -2)
-
-    glVertex2f(3, 2)
-    glVertex2f(-3,2)
-    glColor3f(1, 0, 1)
-
-
-    glEnd()
-
 def main():
     pygame.init()
     display = 500,500
